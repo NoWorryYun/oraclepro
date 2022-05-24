@@ -35,7 +35,7 @@ values(seq_person_id.nextval, '서장훈', '010-5555-5555', '02-5555-5555');
 update person
 set hp = '010-9999-9999',
     company = '010-9999-9999'
-where author_id = 4; 
+where person_id = 4; 
 
 --내용(서장훈) 삭제  //  delete
 

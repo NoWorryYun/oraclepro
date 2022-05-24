@@ -11,7 +11,7 @@ public class PersonVo {
 	
 	//생성자
 	public PersonVo() {}
-	
+
 	public PersonVo(String name, String hp, String company) {
 		this.name = name;
 		this.hp = hp;
@@ -26,6 +26,13 @@ public class PersonVo {
 		this.company = company;
 	}
 	
+	public PersonVo(String name, String hp, String company, int personId) {
+		super();
+		this.personId = personId;
+		this.name = name;
+		this.hp = hp;
+		this.company = company;
+	}
 	
 	//GS
 	public int getPersonId() {
