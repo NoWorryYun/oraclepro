@@ -82,5 +82,10 @@ public class PhoneDao {
 		return count;
 
 	}
+	
+	//delete
+	public int personDelete(int authorId) {
+		
+	}
 
 }
