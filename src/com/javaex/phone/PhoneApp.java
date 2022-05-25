@@ -57,6 +57,7 @@ public class PhoneApp {
 				System.out.println("<3.수정>");
 				System.out.print("번호 > ");
 				int personId = sc.nextInt();
+				sc.nextLine();
 				System.out.print("이름 > ");
 				String name = sc.nextLine();
 				System.out.print("휴대전화 > ");

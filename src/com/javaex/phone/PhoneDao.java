@@ -120,7 +120,7 @@ public class PhoneDao {
 			String query = "";
 			query += " update person";
 			query += " set name = ?,";
-			query += "     hp = ?";
+			query += "     hp = ?,";
 			query += "     company = ?";
 			query += " where person_id = ?";
 			System.out.println(query);
